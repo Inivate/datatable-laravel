@@ -1,0 +1,25 @@
+{
+    "name": "inivate/datatable-laravel",
+    "description": "This package is created to handle server-side requests of DataTables jQuery Plugin via AJAX option.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inivate\\DatatableLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inivate Pty Ltd",
+            "email": "info@inivate.co.za"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra" : {
+        "laravel" : {
+            "providers": [
+                "Inivate\\DatatableLaravel\\DatatableServiceProvider"
+            ]
+        }
+    }
+}
